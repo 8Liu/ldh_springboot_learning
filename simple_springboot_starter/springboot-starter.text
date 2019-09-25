@@ -1,0 +1,45 @@
+1.创建maven项目，在项目中定义使用的依赖
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-configuration-processor</artifactId>
+    <optional>true</optional>
+</dependency>
+2.新建配置类，写好配置项和默认的配置值，指明配置项前缀
+@Data
+@ConfigurationProperties(prefix = MyProperties.PREFIX)
+public class MyProperties {
+
+    public static final String PREFIX = "my";
+
+    private String loginName = "test";
+}
+
+3.新建自动装配类，使用@Configuration和@Bean来进行自动装配
+@Configuration
+@EnableConfigurationProperties(MyProperties.class)
+public class MyObjectAutoConfiguartion {
+
+    @Configuration
+    static class TeacherAutoConfiguration {
+
+        @Bean
+        @ConditionalOnClass({Teacher.class, School.class})
+        public static Teacher teacher() {
+            return new Teacher();
+        }
+    }
+
+    @Configuration
+    static class StudentAutoConfiguration {
+
+        @Bean
+        @ConditionalOnMissingBean
+        public Student student(@Autowired MyProperties myProperties) {
+            return new Student(myProperties.getLoginName());
+        }
+    }
+}
+
+4.在resource下新建META-INF文件夹，并在此文件夹下创建spring.factories文件，并指定starter的自动装配类
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.liudehuang.springboot.study.configuration.MyObjectAutoConfiguartion
