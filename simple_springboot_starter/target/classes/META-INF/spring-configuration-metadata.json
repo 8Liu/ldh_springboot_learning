@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.liudehuang.springboot.learning.configuration.MyProperties",
+      "name": "my",
+      "type": "com.liudehuang.springboot.learning.configuration.MyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.liudehuang.springboot.learning.configuration.MyProperties",
+      "defaultValue": "test",
+      "name": "my.name",
+      "type": "java.lang.String"
+    }
+  ]
+}

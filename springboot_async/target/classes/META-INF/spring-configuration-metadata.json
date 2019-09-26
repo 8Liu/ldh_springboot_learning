@@ -1,0 +1,40 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.liudehuang.springboot.learning.async.config.ThreadPoolConfig",
+      "name": "spring.thread.pool",
+      "type": "com.liudehuang.springboot.learning.async.config.ThreadPoolConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.liudehuang.springboot.learning.async.config.ThreadPoolConfig",
+      "defaultValue": 5,
+      "name": "spring.thread.pool.core-pool-size",
+      "description": "线程池维护线程的最少数量",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.liudehuang.springboot.learning.async.config.ThreadPoolConfig",
+      "defaultValue": 300,
+      "name": "spring.thread.pool.keep-alive-seconds",
+      "description": "线程池维护线程所允许的空闲时间(秒)",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.liudehuang.springboot.learning.async.config.ThreadPoolConfig",
+      "defaultValue": 100,
+      "name": "spring.thread.pool.max-pool-size",
+      "description": "线程池维护线程的最大数量",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.liudehuang.springboot.learning.async.config.ThreadPoolConfig",
+      "defaultValue": 25,
+      "name": "spring.thread.pool.queue-capacity",
+      "description": "线程池所使用的缓冲队列容量",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
