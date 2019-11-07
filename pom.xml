@@ -15,6 +15,8 @@
         <module>springboot_logging</module>
         <module>springboot_elasticsearch</module>
         <module>mybatis-generator-example</module>
+        <module>easyexcel-learning</module>
+        <module>springboot-fastdfs</module>
     </modules>
 
     <parent>

@@ -11,16 +11,20 @@
         <module name="springboot_elasticsearch" />
         <module name="ldh_springboot_learning_test" />
         <module name="simple_springboot_starter" />
+        <module name="springboot-fastdfs" />
+        <module name="easyexcel-learning" />
         <module name="springboot_async" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="easyexcel-learning" options="-parameters" />
       <module name="ldh_springboot_learning" options="-parameters" />
       <module name="ldh_springboot_learning_test" options="-parameters" />
       <module name="mybatisgeneratorexample" options="-parameters" />
       <module name="simple_springboot_starter" options="-parameters" />
+      <module name="springboot-fastdfs" options="-parameters" />
       <module name="springboot_async" options="-parameters" />
       <module name="springboot_elasticsearch" options="-parameters" />
       <module name="springboot_logging" options="-parameters" />
