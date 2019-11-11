@@ -17,6 +17,7 @@
         <module>mybatis-generator-example</module>
         <module>easyexcel-learning</module>
         <module>springboot-fastdfs</module>
+        <module>springboot-druid</module>
     </modules>
 
     <parent>
