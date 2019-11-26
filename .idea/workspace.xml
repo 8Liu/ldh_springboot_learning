@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01d64dbf-0eb7-4d7e-8ce7-d871936f3cc7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-druid/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/springboot-druid.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/DataSourceProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/DruidMonitorConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/DruidMonitorProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/DruidMonitorStatViewServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/DruidMonitorWebStatFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/DynamicDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/MybatisProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/utils/DataSourcePropertiesUtil.java" afterDir="false" />
+    <list default="true" id="01d64dbf-0eb7-4d7e-8ce7-d871936f3cc7" name="Default Changelist" comment="添加druid数据源监控">
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/ShardingJdbcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/annotation/MchDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/annotation/aspect/MchDataSourceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/config/DataSourceHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/config/HashPreciseShardingAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/config/MerchantIdPreciseShardingAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/controller/MerchantController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/entity/Merchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/mapper/MerchantMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/service/MerchantService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/service/impl/MerchantServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/mapper/MerchantMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/sharding_jdbc学习笔记" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-example/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-example/src/main/resources/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-example/src/main/resources/mybatis-generator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-example/target/classes/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-example/target/classes/mybatis-generator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_logging/src/main/java/com/liudehuang/springboot/learning/logging/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_logging/target/classes/com/liudehuang/springboot/learning/logging/LogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_logging/target/classes/com/liudehuang/springboot/learning/logging/Test.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,6 +45,7 @@
     <ignored path="$PROJECT_DIR$/easyexcel-learning/target/" />
     <ignored path="$PROJECT_DIR$/springboot-fastdfs/target/" />
     <ignored path="$PROJECT_DIR$/springboot-druid/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-sharding-jdbc/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +57,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/DynamicDataSourceConfig.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1539">
+              <caret line="102" column="70" selection-start-line="102" selection-start-column="59" selection-end-line="102" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/sharding_jdbc学习笔记">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="152">
+                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -59,6 +94,9 @@
       <list>
         <option value="mybatis-generator-config" />
         <option value="FxmlFile" />
+        <option value="AnnotationType" />
+        <option value="mapper" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -69,6 +107,11 @@
       <find>mybatis-generator-maven-plugin</find>
       <find>WriteWorkbookHolder</find>
       <find>_va</find>
+      <find>com.xbz.xdemo.shardingjdbc.entity.User</find>
+      <find>actual-data-nodes</find>
+      <find>masterslave-rules</find>
+      <find>slave-data-source-names</find>
+      <find>tables</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,32 +120,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot_async/src/main/java/com/liudehuang/springboot/learning/async/AsyncApplication.java" />
-        <option value="$PROJECT_DIR$/springboot_async/src/main/java/com/liudehuang/springboot/learning/async/config/AsyncResult.java" />
-        <option value="$PROJECT_DIR$/springboot_async/src/main/java/com/liudehuang/springboot/learning/async/service/TaskService.java" />
-        <option value="$PROJECT_DIR$/springboot_async/src/main/java/com/liudehuang/springboot/learning/async/controller/AsyncController.java" />
-        <option value="$PROJECT_DIR$/springboot_async/src/main/java/com/liudehuang/springboot/learning/async/config/AsyncExecutePool.java" />
-        <option value="$PROJECT_DIR$/springboot_logging/src/main/java/com/liudehuang/springboot/learning/logging/LogAspect.java" />
-        <option value="$PROJECT_DIR$/springboot_logging/src/main/java/com/liudehuang/springboot/learning/logging/Test.java" />
-        <option value="$PROJECT_DIR$/springboot_logging/pom.xml" />
-        <option value="$PROJECT_DIR$/ldh_springboot_learning_test/pom.xml" />
-        <option value="$PROJECT_DIR$/ldh_springboot_learning_test/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ldh_springboot_learning_test/src/main/java/com/liudehuang/springboot/learning/test/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_elasticsearch/src/main/java/com/liudehuang/elasticsearch/ElasticSearchApp.java" />
-        <option value="$PROJECT_DIR$/springboot_elasticsearch/src/main/java/com/liudehuang/elasticsearch/config/ElasticSearchRestClient.java" />
-        <option value="$PROJECT_DIR$/springboot_elasticsearch/src/main/java/com/liudehuang/elasticsearch/controller/ElasticSearchController.java" />
-        <option value="$PROJECT_DIR$/springboot_elasticsearch/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot_elasticsearch/src/main/java/com/liudehuang/elasticsearch/controller/GetController.java" />
-        <option value="$PROJECT_DIR$/springboot_elasticsearch/src/main/java/com/liudehuang/elasticsearch/entity/IndexReq.java" />
-        <option value="$PROJECT_DIR$/springboot_elasticsearch/src/main/java/com/liudehuang/elasticsearch/entity/CreateIndexRequest.java" />
-        <option value="$PROJECT_DIR$/springboot_elasticsearch/src/main/java/com/liudehuang/elasticsearch/entity/IndexRequest.java" />
-        <option value="$PROJECT_DIR$/springboot_elasticsearch/src/main/java/com/liudehuang/elasticsearch/entity/CreateIndexRequestParamParam.java" />
-        <option value="$PROJECT_DIR$/springboot_elasticsearch/src/main/java/com/liudehuang/elasticsearch/entity/UpdateIndexRequestParam.java" />
-        <option value="$PROJECT_DIR$/springboot_elasticsearch/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_elasticsearch/src/main/java/com/liudehuang/elasticsearch/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/springboot_elasticsearch/src/main/java/com/liudehuang/elasticsearch/controller/SearchController.java" />
-        <option value="$PROJECT_DIR$/mybatis-generator-example/src/main/resources/mybatis-generator.xml" />
         <option value="$PROJECT_DIR$/mybatis-generator-example/src/main/java/com/liudehuang/mybatis/MybatisApp.java" />
         <option value="$PROJECT_DIR$/mybatis-generator-example/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mybatis-generator-example/src/main/java/com/liudehuang/mybatis/controller/UserController.java" />
@@ -128,6 +146,31 @@
         <option value="$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/MybatisProperties.java" />
         <option value="$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/utils/DataSourcePropertiesUtil.java" />
         <option value="$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/DynamicDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/mybatis-generator-example/src/main/resources/mybatis-generator.xml" />
+        <option value="$PROJECT_DIR$/mybatis-generator-example/src/main/java/com/liudehuang/mybatis/mapper/MemberCardMapper.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/ShardingJdbcApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/entity/User.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/service/UserService.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/config/HashPreciseShardingAlgorithm.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/config/DataSourceHolder.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/annotation/MchDataSource.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/annotation/aspect/MchDataSourceAspect.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/entity/Merchant.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/mapper/MerchantMapper.xml" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/service/MerchantService.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/mapper/MerchantMapper.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/service/impl/MerchantServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/controller/MerchantController.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/config/MerchantIdPreciseShardingAlgorithm.java" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/sharding_jdbc学习笔记" />
       </list>
     </option>
   </component>
@@ -136,11 +179,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="easyexcel-learning" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="springboot-sharding-jdbc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="easyexcel-learning" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="springboot-sharding-jdbc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -159,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,112 +212,66 @@
             <path>
               <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="ldh_springboot_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-sharding-jdbc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="ldh_springboot_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_logging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ldh_springboot_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_logging" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="ldh_springboot_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-druid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ldh_springboot_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_logging" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="ldh_springboot_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_logging" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="druid" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="ldh_springboot_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-druid" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_logging" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="druid" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ldh_springboot_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-druid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="druid" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="logging" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.alibaba:druid-spring-boot-starter:1.1.18" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.alibaba:druid-spring-boot-starter:1.1.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="druid-spring-boot-starter-1.1.18.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.alibaba:druid-spring-boot-starter:1.1.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="druid-spring-boot-starter-1.1.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.alibaba:druid-spring-boot-starter:1.1.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="druid-spring-boot-starter-1.1.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ldh_springboot_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.alibaba:druid-spring-boot-starter:1.1.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="druid-spring-boot-starter-1.1.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="stat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-sharding-jdbc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -286,12 +282,15 @@
       <recent name="F:\学习专用项目空间\ldh_springboot_learning\simple_springboot_starter" />
       <recent name="F:\学习专用项目空间\ldh_springboot_learning" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liudehuang.shardingjdbc.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\学习专用项目空间\ldh_springboot_learning\springboot-sharding-jdbc" />
+      <recent name="F:\学习专用项目空间\ldh_springboot_learning\springboot-sharding-jdbc\src\main\resources" />
+      <recent name="F:\学习专用项目空间\ldh_springboot_learning\springboot-sharding-jdbc\src\main\resources\mapper" />
       <recent name="F:\学习专用项目空间\ldh_springboot_learning\springboot-druid\src\main\java\com\liudehuang\druid\autoconfigration" />
       <recent name="F:\学习专用项目空间\ldh_springboot_learning\easyexcel-learning\src\main\java\com\liudehuang\easyexcel\learning\util" />
-      <recent name="F:\学习专用项目空间\ldh_springboot_learning\springboot_async\src\main\java\com\liudehuang\springboot\learning\async\config" />
-      <recent name="F:\学习专用项目空间\ldh_springboot_learning\simple_springboot_starter" />
-      <recent name="F:\学习专用项目空间\ldh_springboot_learning\simple_springboot_starter\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -311,7 +310,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FastdfsApp">
+  <component name="RunManager" selected="Spring Boot.ShardingJdbcApplication">
+    <configuration name="MerchantIdPreciseShardingAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liudehuang.shardingjdbc.config.MerchantIdPreciseShardingAlgorithm" />
+      <module name="springboot-sharding-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liudehuang.shardingjdbc.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EasyExcelApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="easyexcel-learning" />
       <extension name="coverage">
@@ -321,19 +333,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.liudehuang.easyexcel.learning.EasyExcelApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElasticSearchApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot_elasticsearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liudehuang.elasticsearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liudehuang.elasticsearch.ElasticSearchApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -364,26 +363,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ldh_springboot_learning_test" />
+    <configuration name="ShardingJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-sharding-jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liudehuang.springboot.learning.test.*" />
+          <option name="PATTERN" value="com.liudehuang.shardingjdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liudehuang.springboot.learning.test.TestApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liudehuang.shardingjdbc.ShardingJdbcApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ShardingJdbcApplication" />
+        <item itemvalue="Application.MerchantIdPreciseShardingAlgorithm" />
         <item itemvalue="Spring Boot.FastdfsApp" />
         <item itemvalue="Spring Boot.EasyExcelApp" />
         <item itemvalue="Spring Boot.MybatisApp" />
-        <item itemvalue="Spring Boot.ElasticSearchApp" />
-        <item itemvalue="Spring Boot.TestApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +425,10 @@
       <workItem from="1573174796620" duration="1258000" />
       <workItem from="1573282105404" duration="2872000" />
       <workItem from="1573434914998" duration="411000" />
-      <workItem from="1573458502078" duration="4177000" />
+      <workItem from="1573458502078" duration="4585000" />
+      <workItem from="1573716914752" duration="1074000" />
+      <workItem from="1574669240404" duration="8551000" />
+      <workItem from="1574730162913" duration="14544000" />
     </task>
     <task id="LOCAL-00001" summary="添加easyExcel、fastdfs">
       <created>1573118172414</created>
@@ -435,16 +437,24 @@
       <option name="project" value="LOCAL" />
       <updated>1573118172414</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加druid数据源监控">
+      <created>1573467475021</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573467475021</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99863000" />
+    <option name="totallyTimeSpent" value="124440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23997134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28008595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -454,7 +464,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21130551" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48317632" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.75268817" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,15 +473,15 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.39973083" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.44683716" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.31090176" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.20861372" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.19627507" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3653295" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -481,7 +491,7 @@
       <window_info anchor="right" id="CDI" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23997134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28080228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -491,7 +501,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21130551" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48317632" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.75268817" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,15 +510,15 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.39973083" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.44683716" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.31090176" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.47644684" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.19627507" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3653295" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -523,7 +533,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加easyExcel、fastdfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加easyExcel、fastdfs" />
+    <MESSAGE value="添加druid数据源监控" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加druid数据源监控" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -533,311 +544,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/easyexcel/2.1.1/easyexcel-2.1.1-sources.jar!/com/alibaba/excel/write/handler/CellWriteHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-632">
-          <caret line="10" column="64" selection-start-line="2" selection-start-column="7" selection-end-line="10" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/easyexcel/2.1.1/easyexcel-2.1.1-sources.jar!/com/alibaba/excel/event/Listener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/easyexcel/2.1.1/easyexcel-2.1.1-sources.jar!/com/alibaba/excel/event/AnalysisEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/easyexcel/2.1.1/easyexcel-2.1.1-sources.jar!/com/alibaba/excel/ExcelWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/easyexcel/2.1.1/easyexcel-2.1.1-sources.jar!/com/alibaba/excel/write/ExcelBuilderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/easyexcel/2.1.1/easyexcel-2.1.1-sources.jar!/com/alibaba/excel/write/property/ExcelWriteHeadProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/liudehuang/fastdfs/config/FdfsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5.jar!/com/github/tobato/fastdfs/FdfsClientConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/FdfsClientConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/domain/conn/PooledConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-          <folding>
-            <element signature="e#1906#1907#0" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/liudehuang/fastdfs/config/FdfsProperties.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/liudehuang/fastdfs/FastdfsApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/domain/upload/ThumbImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/FdfsClientConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="1025" column="22" selection-start-line="1025" selection-start-column="22" selection-end-line="1025" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/domain/fdfs/MetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/service/DefaultFastFileStorageClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="130" column="37" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/service/FastFileStorageClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/domain/upload/FastImageFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/domain/upload/AbstractFastFileBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-254">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/domain/upload/FastFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-          <folding>
-            <element signature="e#1995#1996#0" expanded="true" />
-            <element signature="e#2029#2030#0" expanded="true" />
-            <element signature="e#2074#2075#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/domain/fdfs/StorePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1044">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/exception/FdfsServerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/domain/conn/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.5/fastdfs-client-1.26.5-sources.jar!/com/github/tobato/fastdfs/domain/proto/AbstractFdfsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/liudehuang/fastdfs/controller/ImageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-example/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-example/src/main/resources/mybatis-generator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-example/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.18/druid-spring-boot-starter-1.1.18.jar!/com/alibaba/druid/spring/boot/autoconfigure/properties/DruidStatProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.18/druid-spring-boot-starter-1.1.18.jar!/com/alibaba/druid/spring/boot/autoconfigure/stat/DruidFilterConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.18/druid-spring-boot-starter-1.1.18.jar!/com/alibaba/druid/spring/boot/autoconfigure/stat/DruidSpringAopConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.18/druid-spring-boot-starter-1.1.18.jar!/com/alibaba/druid/spring/boot/autoconfigure/stat/DruidStatViewServletConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.18/druid-spring-boot-starter-1.1.18.jar!/com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple_springboot_starter/src/main/java/com/liudehuang/springboot/learning/configuration/MyObjectAutoConfiguartion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/DruidMonitorStatViewServlet.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/DruidMonitorWebStatFilter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/DruidMonitorProperties.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-druid/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -891,11 +597,343 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-druid/src/main/java/com/liudehuang/druid/autoconfigration/DynamicDataSourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        <state relative-caret-position="656">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-example/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-example/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-example/src/main/resources/mybatis-generator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-example/src/main/java/com/liudehuang/mybatis/domain/MemberCard.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-example/src/main/java/com/liudehuang/mybatis/mapper/MemberCardMapper.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.0.M3/sharding-jdbc-core-2.0.0.M3.jar!/io/shardingjdbc/core/yaml/sharding/YamlShardingRuleConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.0.M3/sharding-jdbc-core-2.0.0.M3-sources.jar!/io/shardingjdbc/core/yaml/masterslave/YamlMasterSlaveRuleConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/ShardingJdbcApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/1application.yml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/application.properties" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.0.M3/sharding-jdbc-core-2.0.0.M3-sources.jar!/io/shardingjdbc/core/jdbc/core/datasource/ShardingDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.0.M3/sharding-jdbc-core-2.0.0.M3-sources.jar!/io/shardingjdbc/core/yaml/sharding/YamlTableRuleConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.0.M3/sharding-jdbc-core-2.0.0.M3-sources.jar!/io/shardingjdbc/core/jdbc/adapter/AbstractDataSourceAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.0.M3/sharding-jdbc-core-2.0.0.M3-sources.jar!/io/shardingjdbc/core/constant/ShardingProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-spring-boot-starter/2.0.0.M3/sharding-jdbc-spring-boot-starter-2.0.0.M3.jar!/io/shardingjdbc/spring/boot/masterslave/SpringBootMasterSlaveRuleConfigurationProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.0.M3/sharding-jdbc-core-2.0.0.M3-sources.jar!/io/shardingjdbc/core/jdbc/unsupported/AbstractUnsupportedOperationDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar!/ch/qos/logback/classic/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.0.M3/sharding-jdbc-core-2.0.0.M3-sources.jar!/io/shardingjdbc/core/api/algorithm/sharding/PreciseShardingValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-spring-boot-starter/2.0.0.M3/sharding-jdbc-spring-boot-starter-2.0.0.M3.jar!/io/shardingjdbc/spring/boot/sharding/SpringBootShardingRuleConfigurationProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.0.M3/sharding-jdbc-core-2.0.0.M3-sources.jar!/io/shardingjdbc/core/yaml/sharding/YamlShardingRuleConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/config/DataSourceHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/annotation/MchDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/annotation/aspect/MchDataSourceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="72" column="63" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_logging/src/main/java/com/liudehuang/springboot/learning/logging/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/service/MerchantService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core/2.0.0.M3/sharding-jdbc-core-2.0.0.M3-sources.jar!/io/shardingjdbc/core/api/HintManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="46" column="22" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="46" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/mapper/MerchantMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/service/impl/MerchantServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/controller/MerchantController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/entity/Merchant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/config/HashPreciseShardingAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="18" column="85" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/mapper/MerchantMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/java/com/liudehuang/shardingjdbc/config/MerchantIdPreciseShardingAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="102" column="70" selection-start-line="102" selection-start-column="59" selection-end-line="102" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/src/main/resources/sharding_jdbc学习笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-jdbc/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

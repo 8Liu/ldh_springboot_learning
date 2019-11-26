@@ -29,9 +29,9 @@
 
 
         <!--数据库连接池-->
-        <jdbcConnection userId="root" password="123456" driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://127.0.0.1:3306/chinaware?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC&amp;verifyServerCertificate=false&amp;useSSL=false"/>
-
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://128.0.255.2:3306/program_user"
+                        userId="root" password="SiSSO2O@R2019"/>
         <javaTypeResolver>
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
@@ -49,7 +49,7 @@
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 
-        <table  tableName="user" enableCountByExample="true" enableDeleteByExample="true"
-               enableSelectByExample="true" enableUpdateByExample="true"/>
+        <table  tableName="member_card" enableCountByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" enableUpdateByExample="false"/>
     </context>
 </generatorConfiguration>

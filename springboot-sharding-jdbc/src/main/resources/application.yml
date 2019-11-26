@@ -1,0 +1,105 @@
+logging:
+  level:
+    com.liudehuang.shardingjdbc: debug
+mybatis:
+  configuration:
+    cache-enabled: false
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.liudehuang.shardingjdbc.entity
+sharding:
+  jdbc:
+    config:
+      sharding:
+        #读写分离设置
+        master-slave-rules:
+          #0库
+          ds_0:
+            master-data-source-name: ds_master_0
+            slave-data-source-names: ds_slave_0
+          #1库
+          ds_1:
+            master-data-source-name: ds_master_1
+            slave-data-source-names: ds_slave_1
+          #2库
+          ds_2:
+            master-data-source-name: ds_master_2
+            slave-data-source-names: ds_slave_2
+        tables:
+          #user:
+            #actual-data-nodes：真实数据节点，由数据源名 + 表名组成，以小数点分隔。多个表以逗号分隔，支持inline表达式
+            #databaseStrategy:
+              #inline:
+                #shardingColumn: merchant_id
+                #algorithmExpression: ds${merchant_id % 3}
+            #分表策略
+            #table-strategy:
+              #inline:
+                #table-strategy.inline.algorithm-expression：分表的算法表达式(取模 , HASH , 分块等)
+                #algorithm-expression: user_${user_id.longValue() % 2}
+                #table-strategy.inline.sharding-column：分表的字段配置
+                #sharding-column: user_id
+              #standard:
+                #sharding-column: name
+                #preciseAlgorithmClassName: com.liudehuang.shardingjdbc.config.HashPreciseShardingAlgorithm
+          merchant:
+            #actual-data-nodes: ds_0.merchant_${merchant_id.longValue()}
+            databaseStrategy:
+              inline:
+                # 分库字段
+                shardingColumn: merchant_id
+                # 分库规则
+                algorithmExpression: ds_${merchant_id % 3}
+            table-strategy:
+              #standard:
+                #sharding-column: merchant_id
+                #preciseAlgorithmClassName: com.liudehuang.shardingjdbc.config.MerchantIdPreciseShardingAlgorithm
+              inline:
+                # 分表规则
+                algorithm-expression: merchant_${merchant_id.longValue()}
+                # 分表字段
+                sharding-column: merchant_id
+    #数据源配置
+    datasource:
+      #主数据源
+      ds_master_0:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: 123456
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://localhost:3306/sharding_jdbc_write?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+        username: root
+      #从数据源
+      ds_slave_0:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: 123456
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://localhost:3306/sharding_jdbc_read?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+        username: root
+      ds_master_1:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: 123456
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://localhost:3306/sharding_jdbc_write_1?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+        username: root
+        #从数据源
+      ds_slave_1:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: 123456
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://localhost:3306/sharding_jdbc_read_1?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+        username: root
+      ds_master_2:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: 123456
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://localhost:3306/sharding_jdbc_write_2?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+        username: root
+        #从数据源
+      ds_slave_2:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: 123456
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://localhost:3306/sharding_jdbc_read_2?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+        username: root
+      names: ds_master_0,ds_slave_0,ds_master_1,ds_slave_1,ds_master_2,ds_slave_2
+server:
+  port: 8888

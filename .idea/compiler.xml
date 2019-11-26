@@ -13,6 +13,7 @@
         <module name="simple_springboot_starter" />
         <module name="springboot-fastdfs" />
         <module name="easyexcel-learning" />
+        <module name="springboot-sharding-jdbc" />
         <module name="springboot_async" />
         <module name="springboot-druid" />
       </profile>
@@ -20,16 +21,17 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="easyexcel-learning" options="-parameters" />
+      <module name="easyexcel-learning" options="" />
       <module name="ldh_springboot_learning" options="-parameters" />
-      <module name="ldh_springboot_learning_test" options="-parameters" />
-      <module name="mybatisgeneratorexample" options="-parameters" />
-      <module name="simple_springboot_starter" options="-parameters" />
-      <module name="springboot-druid" options="-parameters" />
-      <module name="springboot-fastdfs" options="-parameters" />
-      <module name="springboot_async" options="-parameters" />
-      <module name="springboot_elasticsearch" options="-parameters" />
-      <module name="springboot_logging" options="-parameters" />
+      <module name="ldh_springboot_learning_test" options="" />
+      <module name="mybatisgeneratorexample" options="" />
+      <module name="simple_springboot_starter" options="" />
+      <module name="springboot-druid" options="" />
+      <module name="springboot-fastdfs" options="" />
+      <module name="springboot-sharding-jdbc" options="" />
+      <module name="springboot_async" options="" />
+      <module name="springboot_elasticsearch" options="" />
+      <module name="springboot_logging" options="" />
     </option>
   </component>
 </project>
